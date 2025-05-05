@@ -1,0 +1,95 @@
+body {
+	font-family: 'Times New Roman', sans-serif;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	margin: 0;
+	background-image: url('https://media.istockphoto.com/id/1368169112/vector/money-green-seamless-pattern-vector-background-included-line-icons-as-piggy-bank-wallet.jpg?s=612x612&w=0&k=20&c=qjIUpnUPtiKGBgLnXGLQ_4qQUq36OvP82DIFTAdch70=');
+}
+
+.container {
+	opacity: 0.8;
+	background-color: white;
+	padding: 15px;
+	border: 3px solid #866161;
+	width: 75%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	text-align: center;
+}
+.container h1 {
+	margin-bottom: 10px;
+	font-size: 35px;
+}
+
+.table_container {
+	font-weight: bolder;
+	font-size: 20px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.input_box {
+	width: 400px;
+	padding: 12px 10px 12px 20px;
+	margin: 4px 0;
+	box-sizing: border-box;
+}
+.input_name {
+	width: 250px;
+}
+.end_button {
+	border: 3px solid #866161;
+	padding: 15px 32px;
+	font-size: 16px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.menu_name {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.selection {
+	display: inline-block;
+}
+.table_element {
+	margin-left: 10px;
+	text-align: left;
+}
+
+.form-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button {
+	display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
